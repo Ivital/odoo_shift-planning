@@ -286,3 +286,214 @@ msgstr "Номер тижня"
 #: model:ir.model.fields,field_description:hr_shift.field_shift_planning_wizard__year
 msgid "Year"
 msgstr "Рік"
+
+#. module: hr_shift
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_planning_line__state__assigned
+msgid "Assigned"
+msgstr "Призначено"
+
+#. module: hr_shift
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_planning__state__assignment
+msgid "Assignment"
+msgstr "Призначення"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_wizard_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_employee__current_shift_id
+#: model:ir.model.fields,field_description:hr_shift.field_hr_employee_base__current_shift_id
+#: model:ir.model.fields,field_description:hr_shift.field_hr_employee_public__current_shift_id
+msgid "Current Shift"
+msgstr "Поточна зміна"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_template__day_of_week_end
+msgid "Day Of Week End"
+msgstr "Кінець дня тижня"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__duration_days
+msgid "Duration (Days)"
+msgstr "Тривалість (дні)"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__duration_hours
+msgid "Duration (Hours)"
+msgstr "Тривалість (години)"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_shift_kanban_quick_create
+msgid "Employe"
+msgstr "Працівник"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_shift_planning_wizard__from_planning_id
+msgid "From Planning"
+msgstr "З планування"
+
+#. module: hr_shift
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_planning_shift__state__available
+msgid "Fully available"
+msgstr "Повністю доступно"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_wizard_form
+msgid "Generate"
+msgstr "Згенерувати"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_form
+msgid "Generate shifts"
+msgstr "Згенерувати зміни"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_shift_planning_wizard__generation_type
+msgid "Generation Type"
+msgstr "Тип генерації"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_line_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_wizard_form
+msgid "How?"
+msgstr "Як?"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning__issued_shift_ids
+msgid "Issued Shift"
+msgstr "Видана зміна"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_form
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_kanban
+msgid "Issues"
+msgstr "Проблеми"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning__write_uid
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__write_uid
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_shift__write_uid
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_template__write_uid
+#: model:ir.model.fields,field_description:hr_shift.field_shift_planning_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning__write_date
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__write_date
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_shift__write_date
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_template__write_date
+#: model:ir.model.fields,field_description:hr_shift.field_shift_planning_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: hr_shift
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_planning__state__new
+msgid "New"
+msgstr "Новий"
+
+#. module: hr_shift
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_planning_line__state__on_leave
+msgid "On leave"
+msgstr "У відпустці"
+
+#. module: hr_shift
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_planning__state__planned
+msgid "Planned"
+msgstr "Заплановано"
+
+#. module: hr_shift
+#: model:ir.actions.server,name:hr_shift.action_regenerate_shifts
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_form
+msgid "Regenerate shifts"
+msgstr "Перегенерувати зміни"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_shift_kanban
+msgid "Set as reviewed"
+msgstr "Позначити перевіреним"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_res_company__shift_end_day
+#: model:ir.model.fields,field_description:hr_shift.field_res_config_settings__shift_end_day
+msgid "Shift End Day"
+msgstr "День завершення зміни"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_employee__shift_planning
+#: model:ir.model.fields,field_description:hr_shift.field_hr_employee_base__shift_planning
+#: model:ir.model.fields,field_description:hr_shift.field_hr_employee_public__shift_planning
+msgid "Shift Planning"
+msgstr "Планування змін"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_res_company__shift_start_day
+#: model:ir.model.fields,field_description:hr_shift.field_res_config_settings__shift_start_day
+msgid "Shift Start Day"
+msgstr "День початку зміни"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_shift_kanban
+msgid "Shift details"
+msgstr "Деталі зміни"
+
+#. module: hr_shift
+#: model:ir.actions.act_window,name:hr_shift.my_shifts_planning_action
+#: model:ir.actions.act_window,name:hr_shift.shift_planning_day_detail_action
+#: model:ir.actions.act_window,name:hr_shift.shift_planning_line_action
+#: model:ir.model,name:hr_shift.model_hr_shift_planning_line
+msgid "Shift of the day for the employee"
+msgstr "Зміна дня для працівника"
+
+#. module: hr_shift
+#: model:ir.actions.act_window,name:hr_shift.shift_planning_shift_action
+#: model:ir.model,name:hr_shift.model_hr_shift_planning_shift
+msgid "Shift of the week for a given employee"
+msgstr "Зміна тижня для заданого працівника"
+
+#. module: hr_shift
+#: model:ir.actions.act_window,name:hr_shift.shift_planning_action
+#: model:ir.model,name:hr_shift.model_hr_shift_planning
+msgid "Shift plannings"
+msgstr "Планування змін"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_line_kanban
+msgid "Shift span"
+msgstr "Тривалість зміни"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning__shifts_count
+msgid "Shifts Count"
+msgstr "Кількість змін"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_line_kanban
+msgid "Unassign"
+msgstr "Зняти призначення"
+
+#. module: hr_shift
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_planning_line__state__unassigned
+msgid "Unassigned"
+msgstr "Не призначено"
+
+#. module: hr_shift
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_planning_shift__state__unavailable
+msgid "Unavailable"
+msgstr "Недоступно"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.res_config_settings_view_form
+msgid "Week gos from"
+msgstr "Тиждень починається з"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.res_config_settings_view_form
+msgid "to"
+msgstr "до"
