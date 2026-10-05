@@ -497,3 +497,79 @@ msgstr "Тиждень починається з"
 #: model_terms:ir.ui.view,arch_db:hr_shift.res_config_settings_view_form
 msgid "to"
 msgstr "до"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_shift_planning_wizard__copy_shift_details
+msgid "Copy Shift Details"
+msgstr "Копіювати деталі зміни"
+
+#. module: hr_shift
+#: model:ir.model.fields.selection,name:hr_shift.selection__shift_planning_wizard__generation_type__from_planning
+msgid "Copy from another planning"
+msgstr "Копіювати з іншого планування"
+
+#. module: hr_shift
+#: model:ir.model.fields.selection,name:hr_shift.selection__shift_planning_wizard__generation_type__from_last
+msgid "Copy from the last planning"
+msgstr "Копіювати з останнього планування"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_form
+msgid "Copy to new planning"
+msgstr "Копіювати до нового планування"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_template__day_of_week_start
+msgid "Day Of Week Start"
+msgstr "Початок дня тижня"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.res_config_settings_view_form
+msgid "Default Working Week"
+msgstr "Робочий тиждень за замовчуванням"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_wizard_form
+msgid "Generate for this week"
+msgstr "Створити на цей тиждень"
+
+#. module: hr_shift
+#: model:ir.actions.act_window,name:hr_shift.shift_planning_wizard_action
+msgid "Generate new planning week"
+msgstr "Створити новий тиждень планування"
+
+#. module: hr_shift
+#: model:ir.model.fields,help:hr_shift.field_hr_employee__shift_planning
+#: model:ir.model.fields,help:hr_shift.field_hr_employee_base__shift_planning
+#: model:ir.model.fields,help:hr_shift.field_hr_employee_public__shift_planning
+msgid "Generate shifts for this employee in the shifts plannings"
+msgstr "Створювати зміни для цього працівника у планах змін"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_wizard_form
+msgid "How to generate the new planning"
+msgstr "Як створити нове планування"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning__issued_shifts_count
+msgid "Issued Shifts Count"
+msgstr "Кількість виданих змін"
+
+#. module: hr_shift
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_planning_shift__state__partial
+msgid "Partially available"
+msgstr "Частково доступно"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.res_config_settings_view_form
+msgid ""
+"Set default company's default working start and end day to be used in shifts"
+" span"
+msgstr ""
+"Установити стандартні початок і кінець робочого дня компанії для "
+"використання в діапазоні змін"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_form
+msgid "This will remove the current shifts assignations for this planning"
+msgstr "Це видалить поточні призначення змін для цього планування"
