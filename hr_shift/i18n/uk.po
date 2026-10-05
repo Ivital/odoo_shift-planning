@@ -1,0 +1,288 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_template__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: hr_shift
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_template_form
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_template_search
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__color
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_shift__color
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_template__color
+msgid "Color"
+msgstr "Колір"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning__create_uid
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__create_uid
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_shift__create_uid
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_template__create_uid
+#: model:ir.model.fields,field_description:hr_shift.field_shift_planning_wizard__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning__create_date
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__create_date
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_shift__create_date
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_template__create_date
+#: model:ir.model.fields,field_description:hr_shift.field_shift_planning_wizard__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__start_date
+msgid "Date"
+msgstr "Дата"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__day_number
+msgid "Day"
+msgstr "День"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning__days_data
+msgid "Days Data"
+msgstr "Дані за дні"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning__display_name
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__display_name
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_shift__display_name
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_template__display_name
+#: model:ir.model.fields,field_description:hr_shift.field_shift_planning_wizard__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__employee_id
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_shift__employee_id
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_line_search
+msgid "Employee"
+msgstr "Працівник"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning__end_date
+msgid "End Date"
+msgstr "Дата завершення"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__end_time
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_template__end_time
+msgid "End Time"
+msgstr "Час завершення"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__end_hour
+msgid "End hour"
+msgstr "Година завершення"
+
+#. module: hr_shift
+#. odoo-python
+#: code:addons/hr_shift/models/shift_template.py:0
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_planning_line__day_number__4
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_template__day_of_week_end__4
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_template__day_of_week_start__4
+#: model:ir.model.fields.selection,name:hr_shift.selection__res_company__shift_end_day__4
+#: model:ir.model.fields.selection,name:hr_shift.selection__res_company__shift_start_day__4
+msgid "Friday"
+msgstr "П’ятниця"
+
+#. module: hr_shift
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_planning_line__state__holiday
+msgid "Holiday"
+msgstr "Свято"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_shift__image_128
+msgid "Image 128"
+msgstr "Зображення 128"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_shift__line_ids
+msgid "Line"
+msgstr "Рядок"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_shift__lines_data
+msgid "Lines Data"
+msgstr "Дані рядків"
+
+#. module: hr_shift
+#. odoo-python
+#: code:addons/hr_shift/models/shift_template.py:0
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_planning_line__day_number__0
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_template__day_of_week_end__0
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_template__day_of_week_start__0
+#: model:ir.model.fields.selection,name:hr_shift.selection__res_company__shift_end_day__0
+#: model:ir.model.fields.selection,name:hr_shift.selection__res_company__shift_start_day__0
+msgid "Monday"
+msgstr "Понеділок"
+
+#. module: hr_shift
+#: model:ir.ui.menu,name:hr_shift.my_shifts_menu
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_line_search
+msgid "My shifts"
+msgstr "Мої зміни"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_template__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__planning_id
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_shift__planning_id
+#: model:ir.ui.menu,name:hr_shift.shift_planning_menu
+msgid "Planning"
+msgstr "Планування"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__resource_id
+msgid "Resource"
+msgstr "Ресурс"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__reviewed
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_shift__reviewed
+msgid "Reviewed"
+msgstr "Перевірено"
+
+#. module: hr_shift
+#. odoo-python
+#: code:addons/hr_shift/models/shift_template.py:0
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_planning_line__day_number__5
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_template__day_of_week_end__5
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_template__day_of_week_start__5
+#: model:ir.model.fields.selection,name:hr_shift.selection__res_company__shift_end_day__5
+#: model:ir.model.fields.selection,name:hr_shift.selection__res_company__shift_start_day__5
+msgid "Saturday"
+msgstr "Субота"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning__shift_ids
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__shift_id
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_line_form
+msgid "Shift"
+msgstr "Зміна"
+
+#. module: hr_shift
+#: model:ir.actions.act_window,name:hr_shift.shift_template_action
+#: model:ir.model,name:hr_shift.model_hr_shift_template
+#: model:ir.module.category,name:hr_shift.module_hr_shift
+#: model:ir.ui.menu,name:hr_shift.shift_planning_root
+#: model:ir.ui.menu,name:hr_shift.shift_template_menu
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_form
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_kanban
+msgid "Shifts"
+msgstr "Зміни"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning__start_date
+msgid "Start Date"
+msgstr "Дата початку"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__start_time
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_template__start_time
+msgid "Start Time"
+msgstr "Час початку"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__start_hour
+msgid "Start hour"
+msgstr "Година початку"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning__state
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__state
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_shift__state
+msgid "State"
+msgstr "Стан"
+
+#. module: hr_shift
+#. odoo-python
+#: code:addons/hr_shift/models/shift_template.py:0
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_planning_line__day_number__6
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_template__day_of_week_end__6
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_template__day_of_week_start__6
+#: model:ir.model.fields.selection,name:hr_shift.selection__res_company__shift_end_day__6
+#: model:ir.model.fields.selection,name:hr_shift.selection__res_company__shift_start_day__6
+msgid "Sunday"
+msgstr "Неділя"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_line__template_id
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning_shift__template_id
+#: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_line_search
+msgid "Template"
+msgstr "Шаблон"
+
+#. module: hr_shift
+#. odoo-python
+#: code:addons/hr_shift/models/shift_template.py:0
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_planning_line__day_number__3
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_template__day_of_week_end__3
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_template__day_of_week_start__3
+#: model:ir.model.fields.selection,name:hr_shift.selection__res_company__shift_end_day__3
+#: model:ir.model.fields.selection,name:hr_shift.selection__res_company__shift_start_day__3
+msgid "Thursday"
+msgstr "Четвер"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_template__tz
+msgid "Timezone"
+msgstr "Часовий пояс"
+
+#. module: hr_shift
+#. odoo-python
+#: code:addons/hr_shift/models/shift_template.py:0
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_planning_line__day_number__1
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_template__day_of_week_end__1
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_template__day_of_week_start__1
+#: model:ir.model.fields.selection,name:hr_shift.selection__res_company__shift_end_day__1
+#: model:ir.model.fields.selection,name:hr_shift.selection__res_company__shift_start_day__1
+msgid "Tuesday"
+msgstr "Вівторок"
+
+#. module: hr_shift
+#. odoo-python
+#: code:addons/hr_shift/models/shift_template.py:0
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_planning_line__day_number__2
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_template__day_of_week_end__2
+#: model:ir.model.fields.selection,name:hr_shift.selection__hr_shift_template__day_of_week_start__2
+#: model:ir.model.fields.selection,name:hr_shift.selection__res_company__shift_end_day__2
+#: model:ir.model.fields.selection,name:hr_shift.selection__res_company__shift_start_day__2
+msgid "Wednesday"
+msgstr "Середа"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning__week_number
+#: model:ir.model.fields,field_description:hr_shift.field_shift_planning_wizard__week_number
+msgid "Week Number"
+msgstr "Номер тижня"
+
+#. module: hr_shift
+#: model:ir.model.fields,field_description:hr_shift.field_hr_shift_planning__year
+#: model:ir.model.fields,field_description:hr_shift.field_shift_planning_wizard__year
+msgid "Year"
+msgstr "Рік"
