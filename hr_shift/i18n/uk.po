@@ -573,3 +573,62 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_shift.shift_planning_form
 msgid "This will remove the current shifts assignations for this planning"
 msgstr "Це видалить поточні призначення змін для цього планування"
+
+#. module: hr_shift
+#: model:ir.model.fields,help:hr_shift.field_shift_planning_wizard__copy_shift_details
+msgid ""
+"Copy shift planning details. For example, an employee that goes half the "
+"week in a shift and the other half in other"
+msgstr ""
+"Копіювати деталі планування змін. Наприклад, працівник половину тижня працює"
+" в одній зміні, а другу половину — в іншій"
+
+#. module: hr_shift
+#: model:ir.model,name:hr_shift.model_shift_planning_wizard
+msgid "Create new plannings and their shifts"
+msgstr "Створити нові планування та їх зміни"
+
+#. module: hr_shift
+#: model:ir.model.fields,help:hr_shift.field_hr_shift_planning_line__reviewed
+#: model:ir.model.fields,help:hr_shift.field_hr_shift_planning_shift__reviewed
+msgid "For unavailable shifts that we don't want to be listed as issued"
+msgstr "Для недоступних змін, які не потрібно відображати як проблемні"
+
+#. module: hr_shift
+#. odoo-javascript
+#: code:addons/hr_shift/static/src/js/generate_planning.esm.js:0
+#: code:addons/hr_shift/static/src/xml/generate_planning_views.xml:0
+msgid "Generate Planning"
+msgstr "Створити планування"
+
+#. module: hr_shift
+#: model:ir.model.fields,help:hr_shift.field_shift_planning_wizard__week_number
+msgid "Generate for this week number"
+msgstr "Створити для цього номера тижня"
+
+#. module: hr_shift
+#: model:ir.model.fields,help:hr_shift.field_shift_planning_wizard__year
+msgid "Generate for this year"
+msgstr "Створити для цього року"
+
+#. module: hr_shift
+#: model:res.groups,name:hr_shift.group_shift_manager
+msgid "Shift Manager"
+msgstr "Менеджер змін"
+
+#. module: hr_shift
+#: model:ir.model.fields,help:hr_shift.field_hr_shift_template__tz
+msgid ""
+"This field is used in order to define in which timezone the employees will "
+"work."
+msgstr "Це поле визначає часовий пояс, у якому працюватимуть працівники."
+
+#. module: hr_shift
+#: model:ir.model.constraint,message:hr_shift.constraint_hr_shift_planning_shift_unique_planning_employee
+msgid "You can't assign an employee twice to the same plan!"
+msgstr "Не можна двічі призначити працівника тому самому плану!"
+
+#. module: hr_shift
+#: model:ir.model.constraint,message:hr_shift.constraint_hr_shift_planning_unique_year_week
+msgid "You can't plan the same week twice!"
+msgstr "Не можна планувати той самий тиждень двічі!"
